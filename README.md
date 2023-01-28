@@ -15,3 +15,12 @@ hydra -L userlist.txt -P passwordlist.txt IP-Address ssh -V
 ```bash
 ftp://IP-Address/folder
 ```
+## SQL injection
+
+dsss.py
+
+## Steganography
+### Snow
+```bash
+-C -p password output.txt
+```
