@@ -1,9 +1,15 @@
 # CEH-Practical
 
 ## IP and service enumaration
+#### Nmap scan IP's
+```bash
+hydra -L userlist.txt -P passwordlist.txt ftp://IP-Address -V
+```
+####
+
 
 ## Service brute force
-### FTP brute force
+#¤## FTP brute force
 ```bash
 hydra -L userlist.txt -P passwordlist.txt ftp://IP-Address -V
 ```
@@ -12,7 +18,7 @@ hydra -L userlist.txt -P passwordlist.txt ftp://IP-Address -V
 ftp://IP-Address/folder
 ```
 
-### SSH brute force
+##¤# SSH brute force
 ```bash
 hydra -L userlist.txt -P passwordlist.txt IP-Address ssh -V
 ```
@@ -22,7 +28,7 @@ hydra -L userlist.txt -P passwordlist.txt IP-Address ssh -V
 dsss.py
 
 ## Steganography
-### Snow
+#### Snow
 ```bash
 -C -p password output.txt
 ```
