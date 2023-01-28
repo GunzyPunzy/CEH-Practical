@@ -9,8 +9,10 @@ sudo netdiscover -i eth0
 ```bash
 nmap -sn IP-Address/mask -oG liveip.txt
 ```
-####
-
+#### Nmap scan ports and version on IP
+```bash
+nmap -sV -p IP-Address
+```
 
 ## Service brute force
 #### FTP brute force
