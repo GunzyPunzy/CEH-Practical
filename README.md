@@ -1,9 +1,13 @@
 # CEH-Practical
 
 ## IP and service enumaration
+#### Netdiscover
+```bash
+sudo netdiscover -i eth0
+```
 #### Nmap scan IP's
 ```bash
-hydra -L userlist.txt -P passwordlist.txt ftp://IP-Address -V
+nmap -sn IP-Address/mask -oG liveip.txt
 ```
 ####
 
