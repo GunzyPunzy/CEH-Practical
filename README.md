@@ -9,7 +9,7 @@ hydra -L userlist.txt -P passwordlist.txt ftp://IP-Address -V
 
 
 ## Service brute force
-#¤## FTP brute force
+#### FTP brute force
 ```bash
 hydra -L userlist.txt -P passwordlist.txt ftp://IP-Address -V
 ```
