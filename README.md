@@ -5,6 +5,11 @@
 ```bash
 https://mattw.io/youtube-metadata/
 ```
+### Ping finding  maximum packet/frame size
+```bash
+ping <address> -f -l 1500
+```
+
 ## Scanning Netwroks
 #### Netdiscover
 ```bash
