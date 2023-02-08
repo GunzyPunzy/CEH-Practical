@@ -4,12 +4,12 @@
 ### Reverse image serach
 ```bash
 https://mattw.io/youtube-metadata/
-```bash
+```
 ## IP and service enumaration
 #### Netdiscover
 ```bash
 sudo netdiscover -i eth0
-```bash
+```
 #### Nmap scan IP's
 ```bash
 nmap -sn IP-Address/mask -oG liveip.txt
