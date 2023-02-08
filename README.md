@@ -20,6 +20,10 @@ nslookup -querytype=soa <URL>
 ```bash
 nmap <IP/mask>
 ```
+#### OS-discovery
+```bash
+sudo nmap --script smb-os-discovery.nse
+```
 
 #### Netdiscover
 ```bash
