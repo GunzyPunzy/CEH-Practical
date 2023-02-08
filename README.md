@@ -1,21 +1,26 @@
 # CEH-Practical
 
 ## Footprinting and recon
-### Reverse image serach
+#### Reverse image serach
 ```bash
 https://mattw.io/youtube-metadata/
 ```
-### Ping finding  maximum packet/frame size
+#### Ping finding  maximum packet/frame size
 ```bash
 ping <address> -f -l 1500
 ```
 
-### Find primary server with nslookup 
+#### Find primary server with nslookup 
 ```bash
 nslookup -querytype=soa <URL>
 ```
 
 ## Scanning Netwroks
+#### ICMP Echo
+```bash
+nmap <IP/mask>
+```
+
 #### Netdiscover
 ```bash
 sudo netdiscover -i eth0
