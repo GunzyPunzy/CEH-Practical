@@ -10,6 +10,11 @@ https://mattw.io/youtube-metadata/
 ping <address> -f -l 1500
 ```
 
+### Find primary server with nslookup 
+```bash
+nslookup -querytype=soa <URL>
+```
+
 ## Scanning Netwroks
 #### Netdiscover
 ```bash
