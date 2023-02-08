@@ -5,7 +5,7 @@
 ```bash
 https://mattw.io/youtube-metadata/
 ```
-## IP and service enumaration
+## Scanning Netwroks
 #### Netdiscover
 ```bash
 sudo netdiscover -i eth0
