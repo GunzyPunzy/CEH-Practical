@@ -56,7 +56,7 @@ dnsenum <hostname>
 ```
 #### Nmap enumeration
 ```bash
-nmap -sU --script dns-enum <target>
+nmap -sU --script dns-brute <target>
 ```
 #### FTP brute force
 ```bash
