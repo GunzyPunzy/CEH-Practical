@@ -54,9 +54,10 @@ snmp-check <target-ip-address>
 ```bash
 dnsenum <hostname>
 ```
-#### Nmap enumeration
+#### Reversese lookup
+#### Just use nslookup
 ```bash
-nmap -sU --script dns-brute <target>
+nslookup <IP-Address>
 ```
 #### FTP brute force
 ```bash
