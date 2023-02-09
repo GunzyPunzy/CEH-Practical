@@ -54,6 +54,10 @@ snmp-check <target-ip-address>
 ```bash
 dnsenum <hostname>
 ```
+#### Nmap enumeration
+```bash
+nmap -sU --script dns-enum <target>
+```
 #### FTP brute force
 ```bash
 hydra -L userlist.txt -P passwordlist.txt ftp://IP-Address -V
