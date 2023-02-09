@@ -42,7 +42,7 @@ nmap -sV -p IP-Address
 ```bash
 nbtscan -v -s : <target-ip-or-hostname>
 ```
-#### SNMP-check to find information about a host (name for example)
+#### SNMP-check to find information about a host
 ```bash
 snmp-check <target-ip-address>
 ```
