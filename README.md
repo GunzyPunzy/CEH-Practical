@@ -37,6 +37,8 @@ nmap -sn IP-Address/mask -oG liveip.txt
 ```bash
 nmap -sV -p IP-Address
 ```
+## Enumeration
+
 
 ## Service brute force
 #### FTP brute force
