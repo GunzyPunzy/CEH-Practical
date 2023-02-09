@@ -38,10 +38,7 @@ nmap -sn IP-Address/mask -oG liveip.txt
 nmap -sV -p IP-Address
 ```
 ## Enumeration
-### Serach for a smb share on a target
-```bash
-crackmapexec smb <target-ip-or-hostname>
-```
+
 
 ## Service brute force
 #### FTP brute force
