@@ -63,6 +63,10 @@ nslookup <IP-Address>
 ```bash
 nmap --script smtp-enum-users <target>
 ```
+#### Find http-server-header
+```bash
+nmap -sV -p 80 <target>
+```
 #### FTP brute force
 ```bash
 hydra -L userlist.txt -P passwordlist.txt ftp://IP-Address -V
