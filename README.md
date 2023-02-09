@@ -38,14 +38,16 @@ nmap -sn IP-Address/mask -oG liveip.txt
 nmap -sV -p IP-Address
 ```
 ## Enumeration
-
+### Serach for a smb share on a target
+```bash
+crackmapexec smb <target-ip-or-hostname>
+```
 
 ## Service brute force
 #### FTP brute force
 ```bash
 hydra -L userlist.txt -P passwordlist.txt ftp://IP-Address -V
-```
-#### See content
+```#### See content
 ```bash
 ftp://IP-Address/folder
 ```
