@@ -59,6 +59,10 @@ dnsenum <hostname>
 ```bash
 nslookup <IP-Address>
 ```
+#### SMTP list number of users
+```bash
+nmap --script smtp-enum-users <target>
+```
 #### FTP brute force
 ```bash
 hydra -L userlist.txt -P passwordlist.txt ftp://IP-Address -V
