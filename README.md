@@ -46,7 +46,9 @@ nbtscan -v -s : <target-ip-or-hostname>
 ```bash
 snmp-check <target-ip-address>
 ```
-#### You can alose perrfom a SNMP enumeration using SoftPerfect on the windows machine :)
+##### You can alose perfom a SNMP enumeration using SoftPerfect on the windows machine :)
+#### LDAP enumeration
+##### You can alose perfom a LDAP enumeration by the tool on thw windows machine named "Active Directory Explorer"
 ## Service brute force
 #### FTP brute force
 ```bash
