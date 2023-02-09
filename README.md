@@ -65,7 +65,7 @@ nmap --script smtp-enum-users <target>
 ```
 #### Find http-server-header
 ```bash
-nmap -sV -p 80 <target>
+nmap -sV -A -p 80 <target>
 ```
 #### FTP brute force
 ```bash
