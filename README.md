@@ -50,6 +50,10 @@ snmp-check <target-ip-address>
 #### LDAP enumeration
 ##### You can alose perfom a LDAP enumeration by the tool on thw windows machine named "Active Directory Explorer"
 ## Service brute force
+#### DNS enumeration
+```bash
+dnsenum <hostname>
+```
 #### FTP brute force
 ```bash
 hydra -L userlist.txt -P passwordlist.txt ftp://IP-Address -V
