@@ -67,6 +67,11 @@ nmap --script smtp-enum-users <target>
 ```bash
 nmap -sV -A -p 80 <target>
 ```
+
+#### Enum4linux to find  users, groups, shares, (RID)
+```bash
+enum4linux <target>
+```
 #### FTP brute force
 ```bash
 hydra -L userlist.txt -P passwordlist.txt ftp://IP-Address -V
