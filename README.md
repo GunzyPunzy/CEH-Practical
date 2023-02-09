@@ -40,7 +40,7 @@ nmap -sV -p IP-Address
 ## Enumeration
 #### NetBIOS Enumeration
 ```bash
-nbtscan <target-ip-or-hostname>
+nbtscan -v -s : <target-ip-or-hostname>
 ```
 
 ## Service brute force
