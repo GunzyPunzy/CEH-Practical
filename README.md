@@ -38,7 +38,10 @@ nmap -sn IP-Address/mask -oG liveip.txt
 nmap -sV -p IP-Address
 ```
 ## Enumeration
-
+#### NetBIOS Enumeration
+```bash
+nbtscan <target-ip-or-hostname>
+```
 
 ## Service brute force
 #### FTP brute force
