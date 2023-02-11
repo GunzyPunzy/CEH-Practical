@@ -42,6 +42,9 @@ nmap -sV -p IP-Address
 ```bash
 nbtscan -v -s : <target-ip-or-hostname>
 ```
+```bash
+nmap -sV 172.16.1.102 --script nbstat.nse
+```
 #### SNMP-check to find information about a host
 ```bash
 snmp-check <target-ip-address>
