@@ -81,6 +81,10 @@ enum4linux <target>
 ```bash
 nikto -h (Target Website) -Tuning x
 ```
+### See if smb signing is enabled
+```bash
+nmap -p137,139,445 --script smb-security-mode <target>
+```
 #### FTP brute force
 ```bash
 hydra -L userlist.txt -P passwordlist.txt ftp://IP-Address -V
