@@ -91,6 +91,10 @@ nikto -h (Target Website) -Tuning x
 ```bash
 E:\CEH-Tools\CEHv12 Module 07 Malware Threats\Malware Analysis Tools\Static Malware Analysis Tools\Packaging and Obfuscation Tools\PEid
 ```
+#### Se OS of efl-file
+```bash
+E:\CEH-Tools\CEHv12 Module 07 Malware Threats\Malware Analysis Tools\Static Malware Analysis Tools\Packaging and Obfuscation Tools\DIE
+```
 #### FTP brute force
 ```bash
 hydra -L userlist.txt -P passwordlist.txt ftp://IP-Address -V
