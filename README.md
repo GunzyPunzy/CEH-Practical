@@ -81,9 +81,11 @@ enum4linux <target>
 ```bash
 nikto -h (Target Website) -Tuning x
 ```
-### See if smb signing is enabled
+
+## Malware threst
+### See text file size
 ```bash
-nmap -p137,139,445 --script smb-security-mode <target>
+ E:\CEH-Tools\CEHv12 Module 07 Malware Threats\Malware Analysis Tools\Static Malware Analysis Tools\String Searching Tools\BinText
 ```
 #### FTP brute force
 ```bash
