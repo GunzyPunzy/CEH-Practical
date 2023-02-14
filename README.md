@@ -95,6 +95,17 @@ E:\CEH-Tools\CEHv12 Module 07 Malware Threats\Malware Analysis Tools\Static Malw
 ```bash
 E:\CEH-Tools\CEHv12 Module 07 Malware Threats\Malware Analysis Tools\Static Malware Analysis Tools\Packaging and Obfuscation Tools\DIE
 ```
+
+## Sniffing
+#### mac flood attack, n is number of packets
+```bash
+macof -i eth0 -n 10 
+```
+#### arpsppofing, t is target
+```bash
+ arpspoof -i eth0 -t 10.10.1.11 10.10.1.1
+```
+
 #### FTP brute force
 ```bash
 hydra -L userlist.txt -P passwordlist.txt ftp://IP-Address -V
