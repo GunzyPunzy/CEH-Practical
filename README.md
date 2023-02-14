@@ -105,7 +105,10 @@ macof -i eth0 -n 10
 ```bash
  arpspoof -i eth0 -t 10.10.1.11 10.10.1.1
 ```
-
+#### See password in wireshark
+```bash
+http.request.method == POST
+```
 #### FTP brute force
 ```bash
 hydra -L userlist.txt -P passwordlist.txt ftp://IP-Address -V
