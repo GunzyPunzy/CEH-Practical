@@ -113,6 +113,9 @@ http.request.method == POST
 ## Denial of service
 #### not much
 
+## Session Hijacking
+
+
 #### FTP brute force
 ```bash
 hydra -L userlist.txt -P passwordlist.txt ftp://IP-Address -V
