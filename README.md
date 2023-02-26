@@ -145,4 +145,10 @@ dsss.py
 john --wordlists=<worlist> --format=nt <hash> 
 ```
 
+## Priviligie escalation
+####
+```bash
+sudo -i
+```
+
 
