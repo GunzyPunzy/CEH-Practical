@@ -123,6 +123,7 @@ ftp://IP-Address/folder
 ```
 
 #### SSH brute force
+#### Username can be Ubuntu
 ```bash
 hydra -L userlist.txt -P passwordlist.txt IP-Address ssh -V
 ```
