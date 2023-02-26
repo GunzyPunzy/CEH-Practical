@@ -109,6 +109,10 @@ macof -i eth0 -n 10
 ```bash
 http.request.method == POST
 ```
+
+## Denial of service
+#### not much
+
 #### FTP brute force
 ```bash
 hydra -L userlist.txt -P passwordlist.txt ftp://IP-Address -V
