@@ -136,3 +136,13 @@ dsss.py
 ```bash
 -C -p password output.txt
 ```
+
+## Cracking
+#### Use hash-identifier to find hash
+#### Use cracksation for fast lookup
+#### NTLM with john
+```bash
+john --wordlists=<worlist> --format=nt <hash> 
+```
+
+
