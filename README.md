@@ -42,8 +42,14 @@ nmap -p80 --script http-waf-detect  <URL/IP>
 ```
 
 #### web-server fingerprinting 
+##### directories
 ```bash
 uniscan -u <URL>:<port> -q
+```
+
+##### dynamic
+```bash
+uniscan -u <URL>:<port> -d
 ```
 ## Scanning Netwroks
 #### ICMP Echo
