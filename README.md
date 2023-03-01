@@ -156,8 +156,6 @@ http.request.method == POST
 ```bash
 python3 ghost_eye.py 
 ```
-
-
 #### FTP brute force
 ```bash
 hydra -L userlist.txt -P passwordlist.txt ftp://IP-Address -V
