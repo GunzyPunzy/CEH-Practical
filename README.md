@@ -38,7 +38,7 @@ nmap -sV --script=http-enum <URL/IP>
 ```
 #### nmap check firewall
 ```bash
-nmap --script hostmap-bfk -script-args hostmap-bfk.prefix=hostmap- <URL/IP>
+nmap -p80 --script http-waf-detect  <URL/IP>
 ```
 ## Scanning Netwroks
 #### ICMP Echo
