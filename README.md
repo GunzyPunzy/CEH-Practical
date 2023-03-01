@@ -40,6 +40,11 @@ nmap -sV --script=http-enum <URL/IP>
 ```bash
 nmap -p80 --script http-waf-detect  <URL/IP>
 ```
+
+#### web-server fingerprinting 
+```bash
+uniscan -u <URL>:<port> -q
+```
 ## Scanning Netwroks
 #### ICMP Echo
 ```bash
