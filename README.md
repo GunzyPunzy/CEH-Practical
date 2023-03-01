@@ -15,6 +15,22 @@ ping <address> -f -l 1500
 nslookup -querytype=soa <URL>
 ```
 
+#### Classic information gathering of webadress
+```bash
+whois <URL>
+```
+#### Banner grabbing
+```bash
+nc -vv <URL> 80
+```
+#### or
+```bash
+telnet <URL> 80
+```
+##### Then type
+```bash
+GET / HTTP/1.0
+```
 ## Scanning Netwroks
 #### ICMP Echo
 ```bash
@@ -114,6 +130,12 @@ http.request.method == POST
 #### not much
 
 ## Session Hijacking
+
+## Hacking Web Server
+#### See if adress is vulnerable for clickjacking
+```bash
+python3 ghost_eye.py 
+```
 
 
 #### FTP brute force
