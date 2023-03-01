@@ -31,6 +31,15 @@ telnet <URL> 80
 ```bash
 GET / HTTP/1.0
 ```
+
+#### nmap extract information about a website
+```bash
+nmap -sV --script=http-enum 
+```
+#### nmap check firewall
+```bash
+nmap --script hostmap-bfk -script-args hostmap-bfk.prefix=hostmap-
+```
 ## Scanning Netwroks
 #### ICMP Echo
 ```bash
