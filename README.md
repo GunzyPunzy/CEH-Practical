@@ -34,11 +34,11 @@ GET / HTTP/1.0
 
 #### nmap extract information about a website
 ```bash
-nmap -sV --script=http-enum 
+nmap -sV --script=http-enum <URL/IP>
 ```
 #### nmap check firewall
 ```bash
-nmap --script hostmap-bfk -script-args hostmap-bfk.prefix=hostmap-
+nmap --script hostmap-bfk -script-args hostmap-bfk.prefix=hostmap- <URL/IP>
 ```
 ## Scanning Netwroks
 #### ICMP Echo
