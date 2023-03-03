@@ -67,6 +67,8 @@ gobuster dir -u <URL> -w <wordlist>
 ```bash
 python3 dirsearch.py -u <URL> -e <extension>
 ```
+#### bruteforcing status code
+python3 dirsearch.py -u <URL> -x <status code>
 #### Detect loadbalancing
 ```bash
 lbd <URL>
