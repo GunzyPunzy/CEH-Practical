@@ -98,6 +98,10 @@ dnsenum <hostname>
 ```bash
 nslookup <IP-Address>
 ```
+#### hosting DNS for website
+```bash
+nslookup -type=ns moviescope.com
+```
 #### SMTP list number of users
 ```bash
 nmap --script smtp-enum-users <target>
