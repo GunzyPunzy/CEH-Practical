@@ -59,7 +59,10 @@ nmap -sS -sU -p 53 --script=dns-recursion moviescope.com
 ```bash
 uniscan -u <URL>:<port> -q
 ```
-
+#### Detect loadbalancing
+```bash
+lbd <URL>
+```
 ##### dynamic
 ```bash
 uniscan -u <URL>:<port> -d
