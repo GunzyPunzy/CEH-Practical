@@ -38,7 +38,7 @@ telnet <URL> 80
 ```bash
 GET / HTTP/1.0
 ```
-#### Find Meta-Author-Name
+#### Footprinting of website
 ```bash
 whatweb -v
 ```
