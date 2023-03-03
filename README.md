@@ -63,6 +63,10 @@ uniscan -u <URL>:<port> -q
 ```bash
 gobuster dir -u <URL> -w <wordlist>
 ```
+#### bruteforcing file extension
+```bash
+python3 dirsearch.py -u <URL> -e <extension>
+```
 #### Detect loadbalancing
 ```bash
 lbd <URL>
