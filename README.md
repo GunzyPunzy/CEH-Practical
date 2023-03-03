@@ -47,7 +47,10 @@ nmap -sV --script=http-enum <URL/IP>
 ```bash
 nmap -p80 --script http-waf-detect  <URL/IP>
 ```
-
+#### nmap find name of the DNS server hosting the domain
+```bash
+nmap -sS -sU -p 53 --script=dns-recursion moviescope.com
+```
 #### web-server fingerprinting 
 ##### directories
 ```bash
