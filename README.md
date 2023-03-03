@@ -38,7 +38,10 @@ telnet <URL> 80
 ```bash
 GET / HTTP/1.0
 ```
-
+#### Find Meta-Author-Name
+```bash
+whatweb -v
+```
 #### nmap extract information about a website
 ```bash
 nmap -sV --script=http-enum <URL/IP>
