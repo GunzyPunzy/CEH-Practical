@@ -9,7 +9,14 @@ https://mattw.io/youtube-metadata/
 ```bash
 ping <address> -f -l 1500
 ```
-
+#### Find ip of website
+```bash
+nslookup <IP-Address>
+```
+#### hosting DNS for website
+```bash
+nslookup -type=ns moviescope.com
+```
 #### Find primary server with nslookup 
 ```bash
 nslookup -querytype=soa <URL>
@@ -93,15 +100,7 @@ snmp-check <target-ip-address>
 ```bash
 dnsenum <hostname>
 ```
-#### Reversese lookup
-#### Just use nslookup
-```bash
-nslookup <IP-Address>
-```
-#### hosting DNS for website
-```bash
-nslookup -type=ns moviescope.com
-```
+
 #### SMTP list number of users
 ```bash
 nmap --script smtp-enum-users <target>
