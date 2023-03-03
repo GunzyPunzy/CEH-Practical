@@ -59,6 +59,10 @@ nmap -sS -sU -p 53 --script=dns-recursion moviescope.com
 ```bash
 uniscan -u <URL>:<port> -q
 ```
+#### Gobuster find directories of website
+```bash
+gobuster dir -u <URL> -w <wordlist>
+```
 #### Detect loadbalancing
 ```bash
 lbd <URL>
