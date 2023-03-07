@@ -232,10 +232,18 @@ sqlmap -u "http://www.moviescope.com/viewprofile.aspx?id=1" --cookie="<cookie va
 #### DSS
 ##### Get cookie just like SQLmap
 python3 dsss.py -u "http://www.moviescope.com/viewprofile.aspx?id=1" --cookie="<cookie value>"
-dsss.py
- 
+
 #### Use ZAP Automated scan to find CWE and WASC ID numbers
 
+### Hacking Wireless Networks
+#### aircrack-ng crack WEP-key
+```bash
+aircrack-ng <pcap-file>
+``` 
+#### aircrack-ng crack WPA2-key
+```bash
+aircrack-ng -a2 -b <Target BSSID> -w <wordlist> <pcap-file>
+``` 
 ## Steganography
 #### Snow
 ```bash
