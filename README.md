@@ -244,8 +244,16 @@ aircrack-ng <pcap-file>
 ```bash
 aircrack-ng -a2 -b <Target BSSID> -w <wordlist> <pcap-file>
 ``` 
-## Steganography
-#### Snow
+## Cryptography
+#### Decode file
+##### Use BCTextEncoder on the Windows machine
+#### Decrypt file
+##### Use Advance Encryption Package on the Windows machine
+#### Decrypt a volume
+##### Use VeraCrypt on the Windows machine
+#### Compare file hashes
+##### Use on MD5 Calculator on the Windows machine
+#### Snow Steganography
 ```bash
 -C -p password output.txt
 ```
