@@ -244,6 +244,16 @@ aircrack-ng <pcap-file>
 ```bash
 aircrack-ng -a2 -b <Target BSSID> -w <wordlist> <pcap-file>
 ``` 
+ 
+## Mobile Devices
+#### Use phonesploit, phones are found on port 5555
+```bash
+python3 -m pip install colorama
+```
+```bash
+python3 phonesploit.py
+```
+ 
 ## Cryptography
 #### Decode file
 ##### Use BCTextEncoder on the Windows machine
