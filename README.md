@@ -251,7 +251,7 @@ aircrack-ng -a2 -b <Target BSSID> -w <wordlist> <pcap-file>
 ##### Use Advance Encryption Package on the Windows machine
 #### Decrypt a volume
 ##### Use VeraCrypt on the Windows machine
-#### Compare file hashes
+#### Calculate md5 hashe
 ##### Use on MD5 Calculator on the Windows machine
 #### Snow Steganography
 ```bash
