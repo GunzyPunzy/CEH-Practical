@@ -253,7 +253,10 @@ python3 -m pip install colorama
 ```bash
 python3 phonesploit.py
 ```
- 
+#### For apk analysis
+```bash
+https://www.sisik.eu/apk-tool
+```
 ## Cryptography
 #### Decode file
 ##### Use BCTextEncoder on the Windows machine
