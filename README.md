@@ -1,5 +1,6 @@
 # CEH-Practical
 ## Tools
+### Linux
 * netdiscover
 * NMAP
 * Hydra
@@ -7,6 +8,7 @@
 * wpscan
 * sqlmap
 * ADB
+### Windows
 * Wireshark
 * hashcalc
 * BTCTextEncoder
