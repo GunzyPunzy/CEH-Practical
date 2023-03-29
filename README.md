@@ -1,10 +1,18 @@
 # CEH-Practical
 ## Tools
 * netdiscover
-nmap
-hydra
-
-
+* NMAP
+* Hydra
+* John the Ripper
+* wpscan
+* sqlmap
+* ADB
+* Wireshark
+* hashcalc
+* BTCTextEncoder
+* Cryptool
+* Snow
+* OpenStego
 
 ## Footprinting and recon
 #### Reverse image serach
