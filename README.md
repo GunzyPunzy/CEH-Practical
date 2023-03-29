@@ -1,4 +1,10 @@
 # CEH-Practical
+## Tools
+* netdiscover
+nmap
+hydra
+
+
 
 ## Footprinting and recon
 #### Reverse image serach
